@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 4</title>
+  </head>
+  <body>
+    <form method="post" autocomplete=on action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+
+<fieldset>
+  <legend>My Information</legend>
+  <p>
+    <label for="first_name_field">First Name:</label>
+    <input type="text" id="first_name_field" name="first_name_field" placeholder="First Name">
+  </p>
+  <p>
+    <label for="last_name_field">Last Name:</label>
+    <input type="text" id="last_name_field" name="last_name_field" placeholder="Last Name">
+  </p>
+  <p>
+    <label for="phone_field">Phone Number:</label>
+    <input type="text" id="phone_field" name="phone_field" placeholder="555-555-5555">
+  </p>
+  <p>
+    <label for="email_field">Email:</label>
+    <input type="text" id="email_field" name="email_field" placeholder="example@example.com">
+  </p>
+
+<h3>Gender:</h3>
+  <div>
+    <input type="radio" id="gender_male" name="gender_field" value="male">
+    <label for="gender_male">Male</label>
+  </div>
+  <div>
+    <input type="radio" id="gender_female" name="gender_field" value="female">
+    <label for="gender_female">Female</label>
+  </div>
+  <div>
+    <input type="radio" id="gender_other" name="gender_field" value="other">
+    <label for="gender_other">Other</label>
+  </div>
+  <div>
+    <input type="radio" id="gender_n/a" name="gender_field" value="n/a">
+    <label for="gender_n/a">N/A</label>
+  </div>
+  
+<h3>Age:</h3>
+  <div>
+  <select name="age_field">
+    <optgroup label="Please Select">
+      <option value="Under_18">Under 18</option>
+      <option value="18-24">18 - 24</option>
+      <option value="25-34">25 - 34</option>
+      <option value="35-44">35 - 44</option>
+      <option value="45-54">45 - 54</option>
+      <option value="55-64">55 - 64</option>
+      <option value="65_&_Over">65 & Over</option>
+    </optgroup>
+  </select>
+  </div>
+</fieldset>
